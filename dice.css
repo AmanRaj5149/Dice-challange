@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aqua;
+    font-family: 'Fascinate', cursive;
+
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+}
+h1{
+    font-family: 'Fascinate', cursive;
+    font-size: 4.75rem;
+    margin: 1rem 0 1rem;
+    line-height: 1;
+}
+footer{
+    margin-top: 1rem;
+}
+
+.container{
+   text-align: center;  
+}
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    margin: 1rem 1rem 1rem 1rem;
+}
+.box img{
+    width: 80%;
+    height: 80%;
+}
+.box h3{
+ font-size: 2.5rem;
+}
+
+@media (max-width: 410px){
+    .card{
+        display: flex;
+        flex-direction: column;
+    }
+    h1{
+        font-size: 3rem; 
+    }
+}
