@@ -1,38 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
     <link href="https://fonts.googleapis.com/css2?family=Fascinate&family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
     <title>Dice rollon</title>
-</head>
-<body>
-    
-    <div class="container">
-        <h1 class="heading">Refresh me</h1>
+  </head>
+  <body class="verticalflex">
 
-        <div class="card">
+      <div class="container verticalflex">
+          <h1 class="heading">Roll a Dice</h1>
 
-            <div class="box">
-                <h3>Player 1</h3>
-                <img class="dice-img" src="images/dice1.png" alt="">
-            </div>
-            <div class="box">
-                <h3>Player 2</h3>
-                <img class="dice-img" src="images/dice6.png" alt="">
-            </div>
+          <div class="card">
 
-        </div>
-        <button>Click to Refresh</button>
-    </div>
+              <div class="box">
+                  <h3>Player 1</h3>
+                  <img class="dice-img1" src="images/dice1.png" alt="">
+              </div>
+              <div class="box">
+                  <h3>Player 2</h3>
+                  <img class="dice-img2" src="images/dice6.png" alt="">
+              </div>
 
-    <footer>
-        www 🎲 Dice roll 🎲 com
-    </footer>
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="index.js"></script>
-</body>
+          </div>
+          <button class="btn">Throw</button>
+      </div>
+
+      <footer>
+          www 🎲 Dice roll 🎲 com
+      </footer>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <script src="index.js" charset="utf-8"></script>
+  </body>
 </html>

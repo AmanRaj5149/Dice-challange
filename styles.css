@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   background-color: #283149;
+   font-family: 'Fascinate', cursive;
+   color: #fff;
+   height: 100vh;
+   text-align: center;
+}
+h1{
+    font-size: 4.75rem;
+    margin: 1rem 0 1rem;
+    line-height: 1;
+}
+footer{
+    margin-top: 1rem;
+}
+.verticalflex{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    margin: 1rem;
+}
+.box img{
+    width: 80%;
+    height: 80%;
+}
+.box h3{
+ font-size: 2.5rem;
+}
+
+.btn {
+  background: #283149;
+  background-image: -webkit-linear-gradient(top, #283149, #2980b9);
+  background-image: -moz-linear-gradient(top, #283149, #2980b9);
+  background-image: -ms-linear-gradient(top, #283149, #2980b9);
+  background-image: -o-linear-gradient(top, #283149, #2980b9);
+  background-image: linear-gradient(to bottom, #283149, #2980b9);
+  -webkit-border-radius: 11;
+  -moz-border-radius: 11;
+  border-radius: 11px;
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 19px;
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #283149;
+  background-image: -webkit-linear-gradient(top, #283149, #3498db);
+  background-image: -moz-linear-gradient(top, #283149, #3498db);
+  background-image: -ms-linear-gradient(top, #283149, #3498db);
+  background-image: -o-linear-gradient(top, #283149, #3498db);
+  background-image: linear-gradient(to bottom, #283149, #3498db);
+  text-decoration: none;
+}
