@@ -29,7 +29,7 @@ $("button").on("click", () =>{
         $(".heading").text("🎏Draw🎏");
     }
 
-    $(".dice-img1").attr("src", `images/dice${random1}.png`);
-    $(".dice-img2").attr("src", `images/dice${random2}.png`);
+    $(".dice-img1").attr("src", `images/dice-${random1}.svg`);
+    $(".dice-img2").attr("src", `images/dice-${random2}.svg`);
 
 });
